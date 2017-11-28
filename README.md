@@ -29,7 +29,7 @@ Using this tool requires you to make some simple reverse engineering as you must
 ##### Compilation:  
 `g++ eh.cpp -o eh -std=c++11`   
 ##### Examples:
-[simpl_xorme](examples/simple_xorme/README.md)  
+[simple_xorme](examples/simple_xorme/README.md)  
 [unknown tuctf2017](examples/tuctf2017_unknown_200/README.md)  
 
 

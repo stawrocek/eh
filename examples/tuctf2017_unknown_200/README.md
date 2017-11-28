@@ -116,7 +116,7 @@ and passwords has 56 characters
 ```
 
 ```
-./dbgkeygen unknown 0x401c82 0x401c9f 1 rax 56
+./eh unknown 0x401c82 0x401c9f 1 rax 56
 [7794] Password(0) = 
 [7794] Password(1) = T
 [7794] Password(2) = TU
