@@ -89,7 +89,7 @@ objdump -d xorme -M intel
   400692:	c3                   	ret
 ```
 
-So, we can see that must be 0x13 characters long
+So, we can see that password must be 0x13 characters long
 ```
   4005e3:	e8 58 fe ff ff       	call   400440 <strlen@plt>
   4005e8:	48 83 f8 13          	cmp    rax,0x13

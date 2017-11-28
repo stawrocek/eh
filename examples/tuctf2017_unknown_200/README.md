@@ -94,12 +94,13 @@ radare2 unknown
 
 So this binary firstly checks if `argc != 2 and strlen(argv[1]) != 56` and in both cases it exits. Then it goes like this:
 
+[more details on 0x401e90 insights](https://github.com/Sinkmanu/CTF/tree/master/TUCTF-2017-Unknown)
+
 ```
 for(int i = 0; i < 56; i++){
   call 0x401e90 (i, argv[1][i])
   //this function returned 0 or 1 but was quite complicated "inside"
-  //[details](https://github.com/Sinkmanu/CTF/tree/master/TUCTF-2017-Unknown)
-  //so I've tried bruteforcing it
+  //so I've tried bruteforcing the password
 }
 
 ```
